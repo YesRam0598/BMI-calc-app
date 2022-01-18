@@ -14,7 +14,7 @@ def getCatRisk(bmi):
         cat = "Overweight "
         risk = "Enhanced risk"
     elif bmi < 35:
-        cat = "Moderately "
+        cat = "Moderately obese"
         risk = "Medium risk"
     elif bmi < 40:
         cat = "Severely obese"
